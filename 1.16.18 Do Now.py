@@ -1,14 +1,16 @@
-n=1
-m=-1
-if n<-m:
-    print(n)
-else:
-    print(m) 
 
 from math import sqrt
-x= sqrt(2.0)
+
+#using input() to make an interactive program
+x= float(input("Enter the number you want to square root: "))
+numb_squared= sqrt(x)
+#x= sqrt(2.0)
+print(numb_squared)
+
+'''
 y=2.0
 if x*x==y:
     print(x)
 else:
-    print(y) 
+    print(y)
+'''
